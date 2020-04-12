@@ -1,0 +1,23 @@
+[Dd]ebug/
+[Dd]ebugPublic/
+x64/
+x86/
+build/
+bld/
+[Oo]bj/
+[Oo]ut/
+
+# Visual Studio Code
+.vscode
+
+# git ignore
+.gitignore
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

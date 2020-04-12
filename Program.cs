@@ -21,7 +21,7 @@ namespace HelloWorld
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    webBuilder.UseUrls("http://0.0.0.0:5050;http://*:5050");
+                    webBuilder.UseUrls("http://0.0.0.0:5050");
                 });
     }
 }
