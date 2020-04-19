@@ -4,4 +4,4 @@ RUN mkdir /home/netapp
 WORKDIR /home/netapp
 COPY bin/Release/netcoreapp3.1 .
 EXPOSE 5050
-CMD dotnet Hello-world.dll
+CMD dotnet ProductApi.dll

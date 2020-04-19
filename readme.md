@@ -7,7 +7,7 @@ TODO:
 
 ## Commands for Docker
 - First of all - you need to make a release version of the app, for this purpose run `dotnet publish -c Release`
-- After that you could validate release by running `dotnet bin/Release/netcoreapp3.1/Hello-world.dll`
+- After that you could validate release by running `dotnet bin/Release/netcoreapp3.1/ProductApi.dll`
 - When runtime is validated, simply run `docker build -t netimg:0.3 .`
   - `-t` is name:tag of image
   - `.` is directory
